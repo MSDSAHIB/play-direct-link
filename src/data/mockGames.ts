@@ -15,16 +15,17 @@ export const mockGames: Game[] = [
   {
     id: "1",
     name: "PUBG Mobile",
-    icon: "https://api.dicebear.com/7.x/shapes/svg?seed=pubg&backgroundColor=ff6b6b",
+    icon: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=128&h=128&fit=crop&crop=center",
     rating: 4.2,
     downloads: "1B+",
     category: "Action",
     playStoreUrl: "https://play.google.com/store/apps/details?id=com.tencent.ig",
     developer: "KRAFTON, Inc.",
     screenshots: [
-      "https://api.dicebear.com/7.x/shapes/svg?seed=pubg1",
-      "https://api.dicebear.com/7.x/shapes/svg?seed=pubg2",
-      "https://api.dicebear.com/7.x/shapes/svg?seed=pubg3"
+      "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=300&h=200&fit=crop"
     ],
     description: "Battle royale game with intense multiplayer action and strategic gameplay."
   },
@@ -383,18 +384,461 @@ export const mockGames: Game[] = [
   {
     id: "24",
     name: "Coin Master",
-    icon: "https://api.dicebear.com/7.x/shapes/svg?seed=coin&backgroundColor=f39c12",
+    icon: "https://images.unsplash.com/photo-1483058712412-4245e9b90334?w=128&h=128&fit=crop&crop=center",
     rating: 4.5,
     downloads: "100M+",
     category: "Casual",
     playStoreUrl: "https://play.google.com/store/apps/details?id=com.moonactive.coinmaster",
     developer: "Moon Active",
     screenshots: [
-      "https://api.dicebear.com/7.x/shapes/svg?seed=coin1",
-      "https://api.dicebear.com/7.x/shapes/svg?seed=coin2",
-      "https://api.dicebear.com/7.x/shapes/svg?seed=coin3"
+      "https://images.unsplash.com/photo-1500673922987-e212871fec22?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1497604401993-f2e922e5cb0a?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=300&h=200&fit=crop"
     ],
     description: "Spin the wheel to earn coins, attack friends, and build your village."
+  },
+  {
+    id: "25",
+    name: "Apex Legends Mobile",
+    icon: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=128&h=128&fit=crop&crop=center",
+    rating: 4.3,
+    downloads: "50M+",
+    category: "Action",
+    playStoreUrl: "https://play.google.com/store/apps/details?id=com.ea.gp.apexlegendsmobilefps",
+    developer: "Electronic Arts",
+    screenshots: [
+      "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1483058712412-4245e9b90334?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1500673922987-e212871fec22?w=300&h=200&fit=crop"
+    ],
+    description: "Hero-based battle royale shooter with unique character abilities."
+  },
+  {
+    id: "26",
+    name: "Valorant Mobile",
+    icon: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=128&h=128&fit=crop&crop=center",
+    rating: 4.4,
+    downloads: "10M+",
+    category: "Action",
+    playStoreUrl: "https://play.google.com/store/apps/details?id=com.riotgames.valorantmobile",
+    developer: "Riot Games",
+    screenshots: [
+      "https://images.unsplash.com/photo-1497604401993-f2e922e5cb0a?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=300&h=200&fit=crop"
+    ],
+    description: "Tactical 5v5 character-based shooter with precise gunplay."
+  },
+  {
+    id: "27",
+    name: "Diablo Immortal",
+    icon: "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?w=128&h=128&fit=crop&crop=center",
+    rating: 4.0,
+    downloads: "50M+",
+    category: "RPG",
+    playStoreUrl: "https://play.google.com/store/apps/details?id=com.blizzard.diablo.immortal",
+    developer: "Blizzard Entertainment",
+    screenshots: [
+      "https://images.unsplash.com/photo-1483058712412-4245e9b90334?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1500673922987-e212871fec22?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1497604401993-f2e922e5cb0a?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=300&h=200&fit=crop"
+    ],
+    description: "MMORPG set between Diablo II and Diablo III with dungeon crawling action."
+  },
+  {
+    id: "28",
+    name: "Final Fantasy XV",
+    icon: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=128&h=128&fit=crop&crop=center",
+    rating: 4.1,
+    downloads: "5M+",
+    category: "RPG",
+    playStoreUrl: "https://play.google.com/store/apps/details?id=com.square_enix.android_googleplay.FFXVPE",
+    developer: "Square Enix",
+    screenshots: [
+      "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1483058712412-4245e9b90334?w=300&h=200&fit=crop"
+    ],
+    description: "Epic RPG adventure with stunning visuals and compelling storyline."
+  },
+  {
+    id: "29",
+    name: "Age of Empires Mobile",
+    icon: "https://images.unsplash.com/photo-1500673922987-e212871fec22?w=128&h=128&fit=crop&crop=center",
+    rating: 4.2,
+    downloads: "10M+",
+    category: "Strategy",
+    playStoreUrl: "https://play.google.com/store/apps/details?id=com.microsoft.aoe.mobile",
+    developer: "Microsoft Corporation",
+    screenshots: [
+      "https://images.unsplash.com/photo-1497604401993-f2e922e5cb0a?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=300&h=200&fit=crop"
+    ],
+    description: "Build civilizations and conquer empires in this real-time strategy game."
+  },
+  {
+    id: "30",
+    name: "Homescapes",
+    icon: "https://images.unsplash.com/photo-1497604401993-f2e922e5cb0a?w=128&h=128&fit=crop&crop=center",
+    rating: 4.3,
+    downloads: "500M+",
+    category: "Casual",
+    playStoreUrl: "https://play.google.com/store/apps/details?id=com.playrix.homescapes",
+    developer: "Playrix",
+    screenshots: [
+      "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1483058712412-4245e9b90334?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1500673922987-e212871fec22?w=300&h=200&fit=crop"
+    ],
+    description: "Help Austin renovate his childhood home in this match-3 puzzle adventure."
+  },
+  {
+    id: "31",
+    name: "Need for Speed Heat",
+    icon: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=128&h=128&fit=crop&crop=center",
+    rating: 4.4,
+    downloads: "100M+",
+    category: "Racing",
+    playStoreUrl: "https://play.google.com/store/apps/details?id=com.ea.games.nfs.heat.mobile",
+    developer: "Electronic Arts",
+    screenshots: [
+      "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=300&h=200&fit=crop"
+    ],
+    description: "Street racing with day and night gameplay modes and police chases."
+  },
+  {
+    id: "32",
+    name: "NBA 2K Mobile",
+    icon: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=128&h=128&fit=crop&crop=center",
+    rating: 4.1,
+    downloads: "50M+",
+    category: "Sports",
+    playStoreUrl: "https://play.google.com/store/apps/details?id=com.catdaddy.nba2km",
+    developer: "2K, Inc.",
+    screenshots: [
+      "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1483058712412-4245e9b90334?w=300&h=200&fit=crop"
+    ],
+    description: "Authentic NBA basketball experience with real teams and players."
+  },
+  {
+    id: "33",
+    name: "Monument Valley",
+    icon: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=128&h=128&fit=crop&crop=center",
+    rating: 4.8,
+    downloads: "10M+",
+    category: "Puzzle",
+    playStoreUrl: "https://play.google.com/store/apps/details?id=com.ustwo.monumentvalley",
+    developer: "ustwo games",
+    screenshots: [
+      "https://images.unsplash.com/photo-1500673922987-e212871fec22?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1497604401993-f2e922e5cb0a?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=300&h=200&fit=crop"
+    ],
+    description: "Surreal exploration through impossible architecture and beautiful landscapes."
+  },
+  {
+    id: "34",
+    name: "SimCity BuildIt",
+    icon: "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?w=128&h=128&fit=crop&crop=center",
+    rating: 4.3,
+    downloads: "100M+",
+    category: "Simulation",
+    playStoreUrl: "https://play.google.com/store/apps/details?id=com.ea.game.simcitymobile_row",
+    developer: "Electronic Arts",
+    screenshots: [
+      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1483058712412-4245e9b90334?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1500673922987-e212871fec22?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1497604401993-f2e922e5cb0a?w=300&h=200&fit=crop"
+    ],
+    description: "Build and manage your own bustling metropolis with realistic city simulation."
+  },
+  {
+    id: "35",
+    name: "Fortnite",
+    icon: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=128&h=128&fit=crop&crop=center",
+    rating: 4.2,
+    downloads: "500M+",
+    category: "Action",
+    playStoreUrl: "https://play.google.com/store/apps/details?id=com.epicgames.fortnite",
+    developer: "Epic Games",
+    screenshots: [
+      "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?w=300&h=200&fit=crop"
+    ],
+    description: "Battle royale with building mechanics and creative gameplay modes."
+  },
+  {
+    id: "36",
+    name: "Dragon Ball Z Dokkan Battle",
+    icon: "https://images.unsplash.com/photo-1483058712412-4245e9b90334?w=128&h=128&fit=crop&crop=center",
+    rating: 4.4,
+    downloads: "100M+",
+    category: "RPG",
+    playStoreUrl: "https://play.google.com/store/apps/details?id=com.bandainamcogames.dbzdokkanww",
+    developer: "BANDAI NAMCO Entertainment",
+    screenshots: [
+      "https://images.unsplash.com/photo-1500673922987-e212871fec22?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1497604401993-f2e922e5cb0a?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=300&h=200&fit=crop"
+    ],
+    description: "Collect Dragon Ball characters and engage in puzzle-based battles."
+  },
+  {
+    id: "37",
+    name: "Township",
+    icon: "https://images.unsplash.com/photo-1500673922987-e212871fec22?w=128&h=128&fit=crop&crop=center",
+    rating: 4.4,
+    downloads: "100M+",
+    category: "Casual",
+    playStoreUrl: "https://play.google.com/store/apps/details?id=com.playrix.township",
+    developer: "Playrix",
+    screenshots: [
+      "https://images.unsplash.com/photo-1497604401993-f2e922e5cb0a?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=300&h=200&fit=crop"
+    ],
+    description: "Build your dream town with farms, factories, and community buildings."
+  },
+  {
+    id: "38",
+    name: "Real Racing 3",
+    icon: "https://images.unsplash.com/photo-1497604401993-f2e922e5cb0a?w=128&h=128&fit=crop&crop=center",
+    rating: 4.5,
+    downloads: "500M+",
+    category: "Racing",
+    playStoreUrl: "https://play.google.com/store/apps/details?id=com.ea.games.r3_row",
+    developer: "Electronic Arts",
+    screenshots: [
+      "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1483058712412-4245e9b90334?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1500673922987-e212871fec22?w=300&h=200&fit=crop"
+    ],
+    description: "Ultra-realistic racing with licensed cars and authentic tracks."
+  },
+  {
+    id: "39",
+    name: "The Sims Mobile",
+    icon: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=128&h=128&fit=crop&crop=center",
+    rating: 4.2,
+    downloads: "100M+",
+    category: "Simulation",
+    playStoreUrl: "https://play.google.com/store/apps/details?id=com.ea.gp.simsmobile",
+    developer: "Electronic Arts",
+    screenshots: [
+      "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=300&h=200&fit=crop"
+    ],
+    description: "Create and customize Sims, build homes, and live virtual lives."
+  },
+  {
+    id: "40",
+    name: "Brain Test",
+    icon: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=128&h=128&fit=crop&crop=center",
+    rating: 4.6,
+    downloads: "100M+",
+    category: "Puzzle",
+    playStoreUrl: "https://play.google.com/store/apps/details?id=com.unicostudio.braintest",
+    developer: "Unico Studio",
+    screenshots: [
+      "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1483058712412-4245e9b90334?w=300&h=200&fit=crop"
+    ],
+    description: "Tricky puzzles that will challenge your mind and creativity."
+  },
+  {
+    id: "41",
+    name: "Lords Mobile",
+    icon: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=128&h=128&fit=crop&crop=center",
+    rating: 4.1,
+    downloads: "100M+",
+    category: "Strategy",
+    playStoreUrl: "https://play.google.com/store/apps/details?id=com.igg.lordsmobile",
+    developer: "IGG.COM",
+    screenshots: [
+      "https://images.unsplash.com/photo-1500673922987-e212871fec22?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1497604401993-f2e922e5cb0a?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=300&h=200&fit=crop"
+    ],
+    description: "Build kingdoms, recruit heroes, and engage in massive multiplayer battles."
+  },
+  {
+    id: "42",
+    name: "Merge Dragons",
+    icon: "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?w=128&h=128&fit=crop&crop=center",
+    rating: 4.3,
+    downloads: "50M+",
+    category: "Casual",
+    playStoreUrl: "https://play.google.com/store/apps/details?id=com.gramgames.mergedragons",
+    developer: "Gram Games",
+    screenshots: [
+      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1483058712412-4245e9b90334?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1500673922987-e212871fec22?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1497604401993-f2e922e5cb0a?w=300&h=200&fit=crop"
+    ],
+    description: "Merge anything to evolve and heal a magical land cursed by evil Zomblins."
+  },
+  {
+    id: "43",
+    name: "CSR Racing 2",
+    icon: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=128&h=128&fit=crop&crop=center",
+    rating: 4.4,
+    downloads: "100M+",
+    category: "Racing",
+    playStoreUrl: "https://play.google.com/store/apps/details?id=com.naturalmotion.customstreetracer2",
+    developer: "NaturalMotion Games",
+    screenshots: [
+      "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?w=300&h=200&fit=crop"
+    ],
+    description: "Drag racing with stunning visuals and authentic supercars."
+  },
+  {
+    id: "44",
+    name: "WWE SuperCard",
+    icon: "https://images.unsplash.com/photo-1483058712412-4245e9b90334?w=128&h=128&fit=crop&crop=center",
+    rating: 4.2,
+    downloads: "50M+",
+    category: "Sports",
+    playStoreUrl: "https://play.google.com/store/apps/details?id=com.catdaddy.wwesc",
+    developer: "2K, Inc.",
+    screenshots: [
+      "https://images.unsplash.com/photo-1500673922987-e212871fec22?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1497604401993-f2e922e5cb0a?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=300&h=200&fit=crop"
+    ],
+    description: "Collectible card game featuring WWE Superstars and epic matches."
+  },
+  {
+    id: "45",
+    name: "Flow Free",
+    icon: "https://images.unsplash.com/photo-1500673922987-e212871fec22?w=128&h=128&fit=crop&crop=center",
+    rating: 4.5,
+    downloads: "100M+",
+    category: "Puzzle",
+    playStoreUrl: "https://play.google.com/store/apps/details?id=com.bigduckgames.flow",
+    developer: "Big Duck Games",
+    screenshots: [
+      "https://images.unsplash.com/photo-1497604401993-f2e922e5cb0a?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=300&h=200&fit=crop"
+    ],
+    description: "Simple yet addictive puzzle game - connect matching colors with pipe."
+  },
+  {
+    id: "46",
+    name: "Farming Simulator 20",
+    icon: "https://images.unsplash.com/photo-1497604401993-f2e922e5cb0a?w=128&h=128&fit=crop&crop=center",
+    rating: 4.1,
+    downloads: "10M+",
+    category: "Simulation",
+    playStoreUrl: "https://play.google.com/store/apps/details?id=com.giantssoftware.fs20",
+    developer: "GIANTS Software",
+    screenshots: [
+      "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1483058712412-4245e9b90334?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1500673922987-e212871fec22?w=300&h=200&fit=crop"
+    ],
+    description: "Manage your own farm with realistic farming vehicles and crops."
+  },
+  {
+    id: "47",
+    name: "Black Desert Mobile",
+    icon: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=128&h=128&fit=crop&crop=center",
+    rating: 4.0,
+    downloads: "50M+",
+    category: "RPG",
+    playStoreUrl: "https://play.google.com/store/apps/details?id=com.pearlabyss.blackdesertm.gl",
+    developer: "Pearl Abyss",
+    screenshots: [
+      "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=300&h=200&fit=crop"
+    ],
+    description: "MMORPG with stunning graphics, massive world, and intense PvP battles."
+  },
+  {
+    id: "48",
+    name: "Dream League Soccer",
+    icon: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=128&h=128&fit=crop&crop=center",
+    rating: 4.3,
+    downloads: "100M+",
+    category: "Sports",
+    playStoreUrl: "https://play.google.com/store/apps/details?id=com.firsttouchgames.dls3",
+    developer: "First Touch Games",
+    screenshots: [
+      "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1483058712412-4245e9b90334?w=300&h=200&fit=crop"
+    ],
+    description: "Build your dream team and compete in the ultimate football experience."
+  },
+  {
+    id: "49",
+    name: "Cut the Rope 3",
+    icon: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=128&h=128&fit=crop&crop=center",
+    rating: 4.7,
+    downloads: "50M+",
+    category: "Puzzle",
+    playStoreUrl: "https://play.google.com/store/apps/details?id=com.zeptolab.ctr3.android",
+    developer: "ZeptoLab",
+    screenshots: [
+      "https://images.unsplash.com/photo-1500673922987-e212871fec22?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1497604401993-f2e922e5cb0a?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=300&h=200&fit=crop"
+    ],
+    description: "Feed Om Nom candy by cutting ropes in this physics-based puzzle game."
+  },
+  {
+    id: "50",
+    name: "Geometry Dash",
+    icon: "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?w=128&h=128&fit=crop&crop=center",
+    rating: 4.6,
+    downloads: "100M+",
+    category: "Arcade",
+    playStoreUrl: "https://play.google.com/store/apps/details?id=com.robtopx.geometryjump",
+    developer: "RobTop Games",
+    screenshots: [
+      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1483058712412-4245e9b90334?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1500673922987-e212871fec22?w=300&h=200&fit=crop",
+      "https://images.unsplash.com/photo-1497604401993-f2e922e5cb0a?w=300&h=200&fit=crop"
+    ],
+    description: "Jump and fly your way through danger in this rhythm-based action platformer."
   }
 ];
 

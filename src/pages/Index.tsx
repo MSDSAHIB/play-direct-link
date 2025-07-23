@@ -33,9 +33,9 @@ const Index = () => {
               </div>
               <div>
                 <h1 className="text-3xl font-bold bg-gradient-gaming bg-clip-text text-transparent">
-                  GameVault
+                  Sahib's App Store
                 </h1>
-                <p className="text-muted-foreground">Discover amazing games from Play Store</p>
+                <p className="text-muted-foreground">Your gateway to the best mobile games</p>
               </div>
             </div>
             <div className="hidden md:flex items-center gap-4">
