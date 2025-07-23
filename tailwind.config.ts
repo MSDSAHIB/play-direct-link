@@ -26,7 +26,8 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					glow: 'hsl(var(--primary-glow))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
@@ -52,6 +53,10 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				'game-card': {
+					DEFAULT: 'hsl(var(--game-card-bg))',
+					hover: 'hsl(var(--game-card-hover))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -67,6 +72,14 @@ export default {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
+			},
+			backgroundImage: {
+				'gradient-gaming': 'var(--gradient-gaming)',
+				'gradient-subtle': 'var(--gradient-subtle)'
+			},
+			boxShadow: {
+				'neon': 'var(--shadow-neon)',
+				'card': 'var(--shadow-card)'
 			},
 			keyframes: {
 				'accordion-down': {
@@ -84,11 +97,29 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'glow-pulse': {
+					'0%, 100%': {
+						boxShadow: '0 0 20px hsl(217 91% 60% / 0.3)'
+					},
+					'50%': {
+						boxShadow: '0 0 30px hsl(217 91% 60% / 0.6)'
+					}
+				},
+				'card-hover': {
+					from: {
+						transform: 'translateY(0) scale(1)'
+					},
+					to: {
+						transform: 'translateY(-4px) scale(1.02)'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'glow-pulse': 'glow-pulse 2s ease-in-out infinite',
+				'card-hover': 'card-hover 0.3s ease-out'
 			}
 		}
 	},
